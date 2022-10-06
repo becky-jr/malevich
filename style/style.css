@@ -475,5 +475,83 @@ body {
     margin-top: 25px;
   }
 }
+.popup_content {
+  padding: 50px 100px;
+  text-align: center;
+  background-color: #26634D;
+  color: #ffffff;
+}
+.popup_content .popup_title {
+  font-size: 230px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.popup_content .popup_form .form .form_contacts .contacts_title {
+  font-size: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.popup_content .popup_form .form .form_contacts .name {
+  margin-top: 30px;
+}
+.popup_content .popup_form .form .form_contacts .name .name_input {
+  width: 400px;
+  height: 40px;
+  background-color: #26634D;
+  border: none;
+  border-bottom: 1px #ffffff solid;
+  color: white;
+  font-size: 20px;
+}
+.popup_content .popup_form .form .form_contacts .name ::placeholder {
+  font-size: 20px;
+  color: #ffffff;
+}
+.popup_content .popup_form .form .form_contacts .email {
+  margin-top: 20px;
+}
+.popup_content .popup_form .form .form_contacts .email .email_input {
+  width: 400px;
+  height: 40px;
+  background-color: #26634D;
+  border: none;
+  border-bottom: 1px #ffffff solid;
+  color: white;
+  font-size: 20px;
+}
+.popup_content .popup_form .form .form_contacts .email ::placeholder {
+  font-size: 20px;
+  color: #ffffff;
+}
+.popup_content .popup_form .form .form_project .type {
+  margin-top: 20px;
+}
+.popup_content .popup_form .form .form_project .type .info_input {
+  width: 400px;
+  height: 40px;
+  background-color: #26634D;
+  border: none;
+  border-bottom: 1px #ffffff solid;
+  color: #ffffff;
+  font-size: 20px;
+}
+.popup_content .popup_form .form .form_project .type ::placeholder {
+  font-size: 20px;
+  color: #ffffff;
+}
+.popup_content .popup_form .form .form_project .description {
+  margin-top: 20px;
+}
+.popup_content .popup_form .form .form_project .description .descr_input {
+  width: 400px;
+  height: 40px;
+  background-color: #26634D;
+  border: none;
+  border-bottom: 1px #ffffff solid;
+  color: #ffffff;
+  font-size: 20px;
+}
+.popup_content .popup_form .form .form_project .description ::placeholder {
+  font-size: 20px;
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -648,3 +648,121 @@ body {
 
 }
 
+.popup_content {
+  padding: 50px 100px;
+
+  text-align: center;
+  background-color: #26634D;
+  color: #ffffff;
+
+
+  .popup_title {
+    font-size: 230px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  .popup_form {
+
+    .form {
+
+      .form_contacts {
+
+
+
+        .contacts_title {
+          font-size: 50px;
+          font-family: "Source Sans Pro", sans-serif;
+        }
+
+        .name {
+          margin-top: 30px;
+          .name_input {
+            width: 400px;
+            height: 40px;
+            background-color: #26634D;
+            border: none;
+            border-bottom: 1px #ffffff solid;
+            color: white;
+            font-size: 20px;
+          }
+
+          ::placeholder {
+            font-size: 20px;
+            color: #ffffff;
+
+          }
+        }
+
+        .email {
+          margin-top: 20px;
+          .email_input {
+            width: 400px;
+            height: 40px;
+            background-color: #26634D;
+            border: none;
+            border-bottom: 1px #ffffff solid;
+            color: white;
+            font-size: 20px;
+          }
+
+          ::placeholder {
+            font-size: 20px;
+            color: #ffffff;
+
+          }
+        }
+
+      }
+
+
+      .form_project {
+
+        .type {
+          margin-top: 20px;
+
+          .info_input {
+
+            width: 400px;
+            height: 40px;
+            background-color: #26634D;
+            border: none;
+            border-bottom: 1px #ffffff solid;
+            color: #ffffff;
+            font-size: 20px;
+          }
+
+          ::placeholder {
+            font-size: 20px;
+            color: #ffffff;
+          }
+        }
+
+        .description {
+          margin-top: 20px;
+
+          .descr_input {
+            width: 400px;
+            height: 40px;
+            background-color: #26634D;
+            border: none;
+            border-bottom: 1px #ffffff solid;
+            color: #ffffff;
+            font-size: 20px;
+          }
+
+          ::placeholder {
+            font-size: 20px;
+            color: #ffffff;
+          }
+        }
+
+
+
+
+      }
+
+    }
+
+  }
+
+}
