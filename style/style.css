@@ -1,0 +1,458 @@
+@font-face {
+  font-family: "New York";
+  src: url("../fonts/NewYork.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: url("../img/bg.svg");
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+}
+.header_content .call {
+  padding: 20px 0 0;
+  font-family: sans-serif;
+}
+.header_content .call a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #26634D;
+}
+
+.welcome_content {
+  margin-top: 70px;
+  text-align: center;
+  position: relative;
+}
+.welcome_content .bekhzod {
+  position: absolute;
+  top: -3px;
+  left: 480px;
+}
+.welcome_content .madina {
+  position: absolute;
+  bottom: 150px;
+  left: 635px;
+}
+.welcome_content .feruza {
+  position: absolute;
+  right: 558px;
+  top: 150px;
+}
+.welcome_content .aziz {
+  position: absolute;
+  bottom: 120px;
+  right: 360px;
+}
+.welcome_content .welcome {
+  font-family: "New York";
+  text-transform: uppercase;
+  color: #26634D;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+.welcome_content .malevich {
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 510;
+  font-size: 230px;
+  line-height: 222px;
+  text-align: center;
+  color: #26634D;
+}
+.welcome_content .welcome_text {
+  width: 820px;
+  margin: 50px auto 30px;
+  font-family: "New York";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #4F927A;
+}
+
+.about_content {
+  text-align: center;
+  margin-top: 200px;
+}
+.about_content .about_us {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 510;
+  font-size: 230px;
+  line-height: 274px;
+  text-align: center;
+  color: #26634D;
+}
+.about_content .about_text {
+  width: 820px;
+  margin: 0 auto;
+  font-family: "New York";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #4F927A;
+}
+.about_content .about_link {
+  margin-top: 30px;
+  font-family: "New York";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+.about_content .about_link a {
+  color: #4F927A;
+}
+
+.work_content {
+  margin-top: 200px;
+  position: relative;
+}
+.work_content .our_work {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 510;
+  font-size: 230px;
+  line-height: 274px;
+  text-align: center;
+  color: #26634D;
+}
+.work_content .work_card {
+  margin-top: 80px;
+  display: flex;
+}
+.work_content .work_card .work_card_text {
+  margin: 30px 0 0 50px;
+  width: 480px;
+  font-family: "New York";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F927A;
+}
+.work_content .work_card .work_card_text .text_title {
+  font-size: 32px;
+}
+.work_content .work_card2 {
+  top: 800px;
+  right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  position: absolute;
+}
+.work_content .work_card2 .work_card_text {
+  margin: 330px 30px 0 0;
+  width: 480px;
+  font-family: "New York";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F927A;
+}
+.work_content .work_card2 .work_card_text .text_title {
+  font-size: 32px;
+}
+
+.work_content_2 {
+  padding-bottom: 400px;
+  margin-top: 400px;
+  position: relative;
+}
+.work_content_2 .work_card_3 {
+  margin-top: 80px;
+  display: flex;
+}
+.work_content_2 .work_card_3 .work_card_text {
+  margin: 30px 0 0 50px;
+  width: 480px;
+  font-family: "New York";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F927A;
+}
+.work_content_2 .work_card_3 .work_card_text .text_title {
+  font-size: 32px;
+}
+.work_content_2 .work_card_4 {
+  text-align: right;
+  position: absolute;
+  top: 300px;
+  right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 100px;
+}
+.work_content_2 .work_card_4 .work_card_text {
+  margin: 380px 30px 0 0;
+  width: 480px;
+  font-family: "New York";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F927A;
+}
+.work_content_2 .work_card_4 .work_card_text .text_title {
+  font-size: 32px;
+}
+
+#footer .footer_content {
+  background-color: #F7F7F7;
+  padding: 80px 150px 50px 150px;
+  display: flex;
+}
+#footer .footer_content .footer_form {
+  width: 500px;
+  margin-right: 300px;
+  font-style: normal;
+  font-weight: 400;
+  color: #4F927A;
+}
+#footer .footer_content .footer_form .form_title {
+  font-size: 60px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#footer .footer_content .footer_form .title_small {
+  font-family: "New York";
+  font-size: 15px;
+}
+#footer .footer_content .footer_form .form {
+  padding: 30px 0 0;
+}
+#footer .footer_content .footer_form .form .name {
+  font-family: "New York";
+  padding: 20px 0 10px 10px;
+  width: 100%;
+  background-color: #F7F7F7;
+  border: none;
+  border-bottom: 1px solid #4F927A;
+}
+#footer .footer_content .footer_form .form .email {
+  margin-top: 20px;
+  font-family: "New York";
+  padding: 20px 0 10px 10px;
+  width: 100%;
+  background-color: #F7F7F7;
+  border: none;
+  border-bottom: 1px solid #4F927A;
+}
+#footer .footer_content .footer_form .form .text {
+  margin-top: 20px;
+  font-family: "New York";
+  padding: 20px 0 10px 10px;
+  width: 100%;
+  background-color: #F7F7F7;
+  border: none;
+  border-bottom: 1px solid #4F927A;
+}
+#footer .footer_content .footer_form .form ::placeholder {
+  font-size: 20px;
+  color: #4F927A;
+}
+#footer .footer_content .footer_form .form .submit_btn {
+  margin-top: 20px;
+  background-color: #4F927A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+#footer .footer_content .contact_content {
+  width: 500px;
+  font-style: normal;
+  font-weight: 400;
+  color: #4F927A;
+}
+#footer .footer_content .contact_content .contact_title {
+  font-size: 60px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#footer .footer_content .contact_content .contact_links .address {
+  display: flex;
+  margin-top: 20px;
+}
+#footer .footer_content .contact_content .contact_links .address .map_icon {
+  margin-right: 20px;
+}
+#footer .footer_content .contact_content .contact_links .address a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #4F927A;
+  margin-top: 5px;
+}
+#footer .footer_content .contact_content .messenger_links {
+  margin-top: 50px;
+}
+#footer .footer_content .contact_content .messenger_links .messenger_title {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#footer .footer_content .contact_content .messenger_links .links {
+  margin-top: 10px;
+  display: flex;
+}
+#footer .footer_content .contact_content .messenger_links .links .messenger {
+  margin-right: 20px;
+}
+
+.header, #welcome, #about, #work {
+  padding: 0 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .header, #welcome, #about, #work {
+    width: 550px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .header {
+    margin: 0 auto;
+  }
+  .header .header_content {
+    display: block;
+    text-align: center;
+  }
+  .header .call {
+    display: none;
+  }
+  .welcome_content {
+    margin-top: 200px;
+  }
+  .welcome_content .bekhzod {
+    position: absolute;
+    top: -150px;
+    left: 30px;
+  }
+  .welcome_content .bekhzod img {
+    width: 100px;
+  }
+  .welcome_content .madina {
+    position: absolute;
+    bottom: 260px;
+    left: 5px;
+  }
+  .welcome_content .madina img {
+    width: 70px;
+  }
+  .welcome_content .feruza {
+    position: absolute;
+    right: 15px;
+    top: -110px;
+  }
+  .welcome_content .feruza img {
+    width: 100px;
+  }
+  .welcome_content .aziz {
+    position: absolute;
+    bottom: 160px;
+    right: -10px;
+  }
+  .welcome_content .aziz img {
+    width: 80px;
+  }
+  .welcome_content .malevich {
+    font-size: 105px;
+    line-height: 1;
+  }
+  .welcome_content .welcome_text {
+    width: 550px;
+  }
+  .about_content {
+    margin-top: 100px;
+  }
+  .about_content .about_us {
+    font-size: 105px;
+    line-height: 1;
+  }
+  .about_content .about_text {
+    width: 525px;
+    margin: 20px 10px;
+  }
+  .work_content {
+    margin-top: 100px;
+  }
+  .work_content .our_work {
+    font-size: 105px;
+  }
+  .work_content .work_card {
+    margin-top: 1px;
+  }
+  .work_content .work_card .work_card_text {
+    display: none;
+  }
+  .work_content .work_card2 {
+    top: unset;
+    right: unset;
+    display: block;
+    position: relative;
+  }
+  .work_content .work_card2 .work_card_text {
+    display: none;
+  }
+  .work_content .image img {
+    width: 500px;
+  }
+  .work_content_2 {
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
+  .work_content_2 .work_card_3 {
+    margin: 0;
+    display: block;
+  }
+  .work_content_2 .work_card_3 .image img {
+    width: 540px;
+  }
+  .work_content_2 .work_card_3 .work_card_text {
+    display: none;
+  }
+  .work_content_2 .work_card_4 {
+    text-align: center;
+    position: unset;
+    top: unset;
+    right: unset;
+    display: block;
+    justify-content: unset;
+    padding-bottom: 100px;
+  }
+  .work_content_2 .work_card_4 .work_card_text {
+    display: none;
+  }
+  .work_content_2 .work_card_4 .image img {
+    width: 540px;
+  }
+  #footer {
+    width: 550px;
+    margin: 0 auto;
+  }
+  #footer .footer_content {
+    padding: 20px 10px;
+    display: block;
+  }
+  #footer .footer_content .footer_form {
+    margin: 0;
+  }
+  #footer .footer_content .footer_form .form .name, #footer .footer_content .footer_form .form .email, #footer .footer_content .footer_form .form .text {
+    width: 95%;
+  }
+  #footer .footer_content .footer_form .form .submit_btn {
+    padding: 20px 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
