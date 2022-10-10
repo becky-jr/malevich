@@ -314,6 +314,31 @@ body {
   padding: 0 100px;
 }
 
+@media screen and (max-width: 1440px) {
+  .welcome_content .bekhzod {
+    position: absolute;
+    top: 30px;
+    left: 250px;
+  }
+  .welcome_content .bekhzod img {
+    width: 110px;
+  }
+  .welcome_content .feruza {
+    position: absolute;
+    right: 320px;
+    top: 150px;
+  }
+  .welcome_content .madina {
+    position: absolute;
+    bottom: 150px;
+    left: 400px;
+  }
+  .welcome_content .aziz {
+    position: absolute;
+    bottom: 120px;
+    right: 120px;
+  }
+}
 @media screen and (max-width: 500px) {
   .header, #welcome, #about, #work {
     width: 360px;
@@ -577,6 +602,12 @@ body {
 .popup_content .popup_form .form .form_project .btn button {
   padding: 15px 0;
   width: 400px;
+}
+
+@media screen and (max-width: 500px) {
+  .popup_content {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

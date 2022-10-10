@@ -442,6 +442,34 @@ body {
   padding: 0 100px;
 }
 
+@media screen and (max-width: 1440px) {
+  .welcome_content {
+    .bekhzod {
+      position: absolute;
+      top: 30px;
+      left: 250px;
+      img {
+        width: 110px;
+      }
+    }
+    .feruza {
+      position: absolute;
+      right: 320px;
+      top: 150px;
+    }
+    .madina {
+      position: absolute;
+      bottom: 150px;
+      left: 400px;
+    }
+    .aziz {
+      position: absolute;
+      bottom: 120px;
+      right: 120px;
+    }
+  }
+}
+
 @media screen and (max-width: 500px){
   .header, #welcome, #about, #work {
     width: 360px;
@@ -797,3 +825,10 @@ body {
   }
 
 }
+
+@media screen and (max-width: 500px){
+  .popup_content {
+    display: none;
+  }
+}
+
