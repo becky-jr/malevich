@@ -521,6 +521,11 @@ body {
   font-size: 20px;
   color: #ffffff;
 }
+.popup_content .popup_form .form .form_project {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+}
 .popup_content .popup_form .form .form_project .type {
   margin-top: 20px;
 }
@@ -552,6 +557,26 @@ body {
 .popup_content .popup_form .form .form_project .description ::placeholder {
   font-size: 20px;
   color: #ffffff;
+}
+.popup_content .popup_form .form .form_project .file {
+  margin-top: 20px;
+}
+.popup_content .popup_form .form .form_project .file label {
+  display: inline-block;
+  width: 370px;
+  background-color: #26634D;
+  border: 1px #ffffff dotted;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px;
+}
+.popup_content .popup_form .form .form_project .file label input {
+  display: none;
+}
+.popup_content .popup_form .form .form_project .btn button {
+  padding: 15px 0;
+  width: 400px;
 }
 
 /*# sourceMappingURL=style.css.map */
