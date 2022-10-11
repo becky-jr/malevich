@@ -30,22 +30,22 @@ body {
 .welcome_content .bekhzod {
   position: absolute;
   top: -3px;
-  left: 480px;
+  left: 445px;
 }
 .welcome_content .madina {
   position: absolute;
   bottom: 150px;
-  left: 635px;
+  left: 625px;
 }
 .welcome_content .feruza {
   position: absolute;
-  right: 558px;
+  right: 520px;
   top: 150px;
 }
 .welcome_content .aziz {
   position: absolute;
   bottom: 120px;
-  right: 360px;
+  right: 325px;
 }
 .welcome_content .welcome {
   font-family: "New York";
@@ -55,6 +55,7 @@ body {
   font-weight: 400;
   font-size: 40px;
   line-height: 48px;
+  margin-bottom: 40px;
 }
 .welcome_content .malevich {
   font-family: "Source Sans Pro", sans-serif;
@@ -146,12 +147,9 @@ body {
   font-size: 32px;
 }
 .work_content .work_card2 {
-  top: 800px;
-  right: 50px;
   display: flex;
   justify-content: flex-end;
   text-align: right;
-  position: absolute;
 }
 .work_content .work_card2 .work_card_text {
   margin: 330px 30px 0 0;
@@ -339,7 +337,7 @@ body {
     right: 120px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .header, #welcome, #about, #work {
     width: 360px;
     margin: 0 auto;
@@ -360,27 +358,27 @@ body {
   }
   .welcome_content .bekhzod {
     position: absolute;
-    top: -150px;
-    left: 30px;
+    top: -120px;
+    left: 1px;
   }
   .welcome_content .bekhzod img {
-    width: 100px;
+    width: 90px;
   }
   .welcome_content .madina {
     position: absolute;
-    bottom: 260px;
-    left: 5px;
+    bottom: 200px;
+    left: -10px;
   }
   .welcome_content .madina img {
-    width: 70px;
+    width: 60px;
   }
   .welcome_content .feruza {
     position: absolute;
-    right: 15px;
-    top: -110px;
+    right: -20px;
+    top: -100px;
   }
   .welcome_content .feruza img {
-    width: 100px;
+    width: 90px;
   }
   .welcome_content .aziz {
     position: absolute;
@@ -388,7 +386,7 @@ body {
     right: -10px;
   }
   .welcome_content .aziz img {
-    width: 80px;
+    width: 60px;
   }
   .welcome_content .welcome {
     font-size: 32px;
@@ -398,12 +396,18 @@ body {
     font-size: 75px;
     line-height: 1;
   }
+  .welcome_content .malevich img {
+    width: 360px;
+  }
   .welcome_content .welcome_text {
     width: 360px;
     font-size: 16px;
   }
   .about_content {
     margin-top: 100px;
+  }
+  .about_content img {
+    width: 360px;
   }
   .about_content .about_us {
     font-size: 75px;
