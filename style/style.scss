@@ -173,6 +173,16 @@ body {
     margin-top: 80px;
     display: flex;
 
+    .image {
+      .abn_mobile {
+        display: none;
+      }
+      .abn_pc {
+        display: block;
+        width: 400px;
+      }
+    }
+
 
     .work_card_text {
       margin: 30px 0 0 50px;
@@ -222,13 +232,23 @@ body {
       color: #4F927A;
 
     }
+
+    .image {
+      .shipox_mobile {
+        display: none;
+      }
+      .shipox_pc {
+        display: block;
+        width: 400px;
+      }
+    }
   }
 
 }
 
 .work_content_2 {
   padding-bottom: 400px;
-  margin-top: 400px;
+  margin-top: 200px;
 
   position: relative;
 
@@ -254,6 +274,16 @@ body {
 
       color: #4F927A;
 
+    }
+
+    .image {
+      .stihia_mobile {
+        display: none;
+      }
+      .stihia_pc {
+        display: block;
+        width: 400px;
+      }
     }
   }
 
@@ -287,6 +317,16 @@ body {
 
       color: #4F927A;
 
+    }
+
+    .image {
+      .urban_pc {
+        display: block;
+        width: 400px;
+      }
+      .urban_mobile {
+        display: none;
+      }
     }
   }
 
@@ -576,6 +616,18 @@ body {
 
     .work_card {
       margin-top: 1px;
+
+      .image {
+        .abn_pc {
+          display: none;
+        }
+        .abn_mobile {
+          display: block;
+          width: 350px;
+        }
+      }
+
+
       .work_card_text {
         display: none;
       }
@@ -588,12 +640,20 @@ body {
       right: unset;
       display: block;
       position: relative;
-    }
-    .image {
-      img {
-        width: 375px;
+
+      .image {
+        .shipox_mobile {
+          display: block;
+          width: 350px;
+
+
+        }
+        .shipox_pc {
+          display: none;
+        }
       }
     }
+
   }
 
   .work_content_2 {
@@ -605,8 +665,12 @@ body {
       display: block;
 
       .image {
-        img {
-          width: 375px;
+        .stihia_mobile {
+          display: block;
+        }
+        .stihia_pc {
+          display: none;
+          width: 400px;
         }
       }
 
@@ -616,6 +680,7 @@ body {
     }
 
     .work_card_4 {
+      margin-top: 20px;
       text-align: center;
       position: unset;
       top: unset;
@@ -628,9 +693,14 @@ body {
         display: none;
       }
 
+
       .image {
-        img {
-          width: 375px;
+        .urban_pc {
+          display: none;
+          width: 400px;
+        }
+        .urban_mobile {
+          display: block;
         }
       }
     }
