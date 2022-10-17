@@ -337,14 +337,14 @@ body {
   padding: 0 100px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1150px) and (max-width: 1440px) {
   .welcome_content .bekhzod {
     position: absolute;
     top: 30px;
     left: 250px;
   }
   .welcome_content .bekhzod img {
-    width: 110px;
+    width: 90px;
   }
   .welcome_content .feruza {
     position: absolute;
@@ -360,6 +360,40 @@ body {
     position: absolute;
     bottom: 120px;
     right: 120px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1150px) {
+  .welcome_content .bekhzod {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+  }
+  .welcome_content .bekhzod img {
+    width: 60px;
+  }
+  .welcome_content .feruza {
+    position: absolute;
+    right: 120px;
+    top: 150px;
+  }
+  .welcome_content .feruza img {
+    width: 60px;
+  }
+  .welcome_content .madina {
+    position: absolute;
+    bottom: 180px;
+    left: 200px;
+  }
+  .welcome_content .madina img {
+    width: 60px;
+  }
+  .welcome_content .aziz {
+    position: absolute;
+    bottom: 140px;
+    right: 140px;
+  }
+  .welcome_content .aziz img {
+    width: 80px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -464,8 +498,7 @@ body {
     display: none;
   }
   .work_content .work_card2 {
-    top: unset;
-    right: unset;
+    margin-top: 20px;
     display: block;
     position: relative;
   }
@@ -537,7 +570,6 @@ body {
     padding: 10px 20px;
   }
   #footer .footer_content .footer_contact .contact_content {
-    width: 360px;
     margin-top: 25px;
   }
   #footer .footer_content .footer_contact .contact_content .contact_title {
@@ -547,8 +579,18 @@ body {
     margin-top: 25px;
   }
 }
+#popup {
+  position: relative;
+  background-color: #26634D;
+}
+#popup .back_arrow {
+  display: flex;
+  justify-content: left;
+  padding: 50px 0 0 50px;
+}
+
 .popup_content {
-  padding: 50px 100px;
+  padding: 0 0 50px 0;
   text-align: center;
   background-color: #26634D;
   color: #ffffff;
@@ -562,10 +604,11 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 .popup_content .popup_form .form .form_contacts .name {
-  margin-top: 30px;
+  max-width: 400px;
+  margin: 30px auto 0;
 }
 .popup_content .popup_form .form .form_contacts .name .name_input {
-  width: 400px;
+  width: 100%;
   height: 40px;
   background-color: #26634D;
   border: none;
@@ -578,10 +621,11 @@ body {
   color: #ffffff;
 }
 .popup_content .popup_form .form .form_contacts .email {
-  margin-top: 20px;
+  max-width: 400px;
+  margin: 20px auto 0;
 }
 .popup_content .popup_form .form .form_contacts .email .email_input {
-  width: 400px;
+  width: 100%;
   height: 40px;
   background-color: #26634D;
   border: none;
@@ -599,10 +643,11 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 .popup_content .popup_form .form .form_project .type {
-  margin-top: 20px;
+  max-width: 400px;
+  margin: 20px auto 0;
 }
 .popup_content .popup_form .form .form_project .type .info_input {
-  width: 400px;
+  width: 100%;
   height: 40px;
   background-color: #26634D;
   border: none;
@@ -615,10 +660,11 @@ body {
   color: #ffffff;
 }
 .popup_content .popup_form .form .form_project .description {
-  margin-top: 20px;
+  max-width: 400px;
+  margin: 20px auto 0;
 }
 .popup_content .popup_form .form .form_project .description .descr_input {
-  width: 400px;
+  width: 100%;
   height: 40px;
   background-color: #26634D;
   border: none;
@@ -631,11 +677,12 @@ body {
   color: #ffffff;
 }
 .popup_content .popup_form .form .form_project .file {
-  margin-top: 20px;
+  margin: 20px auto 0;
+  max-width: 370px;
 }
 .popup_content .popup_form .form .form_project .file label {
   display: inline-block;
-  width: 370px;
+  width: 100%;
   background-color: #26634D;
   border: 1px #ffffff dotted;
   border-radius: 10px;
@@ -646,14 +693,27 @@ body {
 .popup_content .popup_form .form .form_project .file label input {
   display: none;
 }
-.popup_content .popup_form .form .form_project .btn button {
+.popup_content .popup_form .form .form_project .form_btn {
+  max-width: 370px;
+  margin: 20px auto;
+  font-family: "New York";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  color: #26634D;
+}
+.popup_content .popup_form .form .form_project .form_btn button {
   padding: 15px 0;
-  width: 400px;
+  display: inline-block;
+  width: 100%;
+  border: none;
 }
 
-@media screen and (max-width: 500px) {
-  .popup_content {
-    display: none;
+@media screen and (max-width: 1440px) {
+  .popup_content .popup_title {
+    font-size: 100px;
   }
 }
 
