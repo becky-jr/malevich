@@ -124,6 +124,7 @@ body {
   text-align: center;
   color: #4F927A;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .work_content {
