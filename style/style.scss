@@ -1051,6 +1051,19 @@ body {
   }
 
 }
+@media screen and (max-width: 600px){
+
+  #popup {
+    .popup_Inner {
+      .popup_content {
+        .popup_title {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+
+}
 
 //@media screen and (max-width: 500px){
 //  .popup_content {
