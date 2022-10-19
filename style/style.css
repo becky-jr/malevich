@@ -122,9 +122,8 @@ body {
   font-size: 24px;
   line-height: 29px;
   text-align: center;
-}
-.about_content .about_link a {
   color: #4F927A;
+  text-decoration: underline;
 }
 
 .work_content {
