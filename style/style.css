@@ -23,6 +23,7 @@ body {
 }
 .header_content .call span {
   color: #26634D;
+  cursor: pointer;
 }
 
 .welcome_content {
@@ -744,7 +745,7 @@ body {
 }
 
 @media screen and (max-width: 1440px) {
-  .popup_content .popup_title {
+  #popup .popup_Inner .popup_content .popup_title {
     font-size: 100px;
   }
 }

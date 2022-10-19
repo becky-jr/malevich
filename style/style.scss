@@ -25,6 +25,7 @@ body {
     }
     span {
       color: $main_green;
+      cursor: pointer;
     }
 
   }
@@ -1039,11 +1040,17 @@ body {
 
 // popup media
 @media screen and (max-width: 1440px){
-  .popup_content {
-    .popup_title {
-      font-size: 100px;
+
+  #popup {
+    .popup_Inner {
+      .popup_content {
+        .popup_title {
+          font-size: 100px;
+        }
+      }
     }
   }
+
 }
 
 //@media screen and (max-width: 500px){
