@@ -163,6 +163,7 @@ body {
 }
 .work_content .work_card .work_card_text .text_title {
   font-size: 32px;
+  margin-bottom: 20px;
 }
 .work_content .work_card2 {
   display: flex;
@@ -181,6 +182,7 @@ body {
 }
 .work_content .work_card2 .work_card_text .text_title {
   font-size: 32px;
+  margin-bottom: 20px;
 }
 .work_content .work_card2 .image .shipox_mobile {
   display: none;
@@ -208,6 +210,7 @@ body {
 }
 .work_content_2 .work_card_3 .work_card_text .text_title {
   font-size: 32px;
+  margin-bottom: 20px;
 }
 .work_content_2 .work_card_3 .image .stihia_mobile {
   display: none;
@@ -234,6 +237,7 @@ body {
 }
 .work_content_2 .work_card_4 .work_card_text .text_title {
   font-size: 32px;
+  margin-bottom: 20px;
 }
 .work_content_2 .work_card_4 .image .urban_pc {
   display: block;
